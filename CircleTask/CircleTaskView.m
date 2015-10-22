@@ -63,7 +63,7 @@
     CABasicAnimation *strokeAnim = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
     strokeAnim.fromValue = [NSNumber numberWithFloat:0.f];
     strokeAnim.toValue   = [NSNumber numberWithFloat:1.0f];
-    strokeAnim.duration  = 2.f;
+    strokeAnim.duration  = 5.f;
     strokeAnim.delegate  = self;
     strokeAnim.removedOnCompletion = YES;
     strokeAnim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];

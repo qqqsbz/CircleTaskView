@@ -18,6 +18,7 @@
 		DCCC77E01BD8845B00C20403 /* CircleTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC77DF1BD8845B00C20403 /* CircleTaskUITests.m */; };
 		DCCC77EF1BD8848600C20403 /* CircleTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC77EE1BD8848600C20403 /* CircleTaskView.m */; settings = {ASSET_TAGS = (); }; };
 		DCCC77F21BD8936500C20403 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC77F11BD8936500C20403 /* UIColor+Util.m */; settings = {ASSET_TAGS = (); }; };
+		DCCC77F51BD8C19F00C20403 /* circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCCC77F41BD8C19F00C20403 /* circle.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DCCC77EE1BD8848600C20403 /* CircleTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTaskView.m; sourceTree = "<group>"; };
 		DCCC77F01BD8936500C20403 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
 		DCCC77F11BD8936500C20403 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		DCCC77F41BD8C19F00C20403 /* circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = circle.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		DCCC77B61BD8845B00C20403 /* CircleTask */ = {
 			isa = PBXGroup;
 			children = (
+				DCCC77F31BD8C18C00C20403 /* image */,
 				DCCC77F01BD8936500C20403 /* UIColor+Util.h */,
 				DCCC77F11BD8936500C20403 /* UIColor+Util.m */,
 				DCCC77BA1BD8845B00C20403 /* AppDelegate.h */,
@@ -151,6 +154,14 @@
 				DCCC77E11BD8845B00C20403 /* Info.plist */,
 			);
 			path = CircleTaskUITests;
+			sourceTree = "<group>";
+		};
+		DCCC77F31BD8C18C00C20403 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC77F41BD8C19F00C20403 /* circle.gif */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCC77F51BD8C19F00C20403 /* circle.gif in Resources */,
 				DCCC77CA1BD8845B00C20403 /* LaunchScreen.storyboard in Resources */,
 				DCCC77C71BD8845B00C20403 /* Assets.xcassets in Resources */,
 				DCCC77C21BD8845B00C20403 /* Main.storyboard in Resources */,
